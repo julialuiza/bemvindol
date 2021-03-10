@@ -33,9 +33,8 @@ Tecnologias utilizadas no desenvolvimento desse sistema:
 - Para isso, basta acessar o [Atlas MongoDB](https://www.mongodb.com/cloud/atlas), criar uma conta, configurar um novo BD com o nome `"bemvindol"` e também uma collection chamada `"users"` (para mais detalhes sobre configuração, acessar o [docs](https://docs.atlas.mongodb.com/getting-started/));
 - Depois, renomeie o arquivo `env.example` para `env.local` e substitua `{USUÁRIO}` e `{SENHA}` pelas suas credenciais de conexão ao mongoDB; 
 - Para fins de visualização, a collection no MongoDB deve ter esta estrutura:
-  
 ![Collection MongoDB Users](./imgs/bemvindol_database.png)
-
+- Caso ocorra algum erro neste passo, estou disponível para auxiliar e/ou passar minhas credenciais, em `jlslc@icomp.ufam.edu.br`
 ## Execução
 - Após a instalação e configuração do BD, utilizar `yarn dev` para iniciar a aplicação.
 - Depois, acessar `http://localhost:3000/` para visualizar.
@@ -47,8 +46,8 @@ Tecnologias utilizadas no desenvolvimento desse sistema:
 
 ## Observações e melhorias 
 
-As **respostas** para as perguntas estão em `/questoes_respostas/respostas.txt`
-Os **diagramas c4** estão em `/c4_models/c4_diagramas_arquitetural_solucao.pdf`
+As **respostas** para as perguntas estão em `/questoes_respostas/respostas.txt` 
+e os **diagramas c4** estão em `/c4_models/c4_diagramas_arquitetural_solucao.pdf`
 
 Melhorias futuras:
 - máscara e validação de alguns dos campos do formulário que ainda não possuem, como cpf; 
