@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container section {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-content: center;
+}
+
+@media (max-width: 1088px) {
+  .container section > div{
+    display: grid;
+    grid-column: 1 / -1;
+  }
+}
