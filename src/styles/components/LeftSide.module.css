@@ -1,0 +1,30 @@
+.containerLeftSide{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.containerBemVindo h1{
+  color: var(--white);
+  font-size: 50px;
+  margin-bottom: 1rem;
+}
+
+.containerLogo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+}
+
+.containerLogo img{
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.containerLogo span{
+  color: var(--white);
+}
