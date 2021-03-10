@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import LeftSide from '../components/LeftSide';
-import SignUp from '../components/Signup';
+import SignUp from '../components/SignUp';
 
 import styles from '../styles/pages/Home.module.css';
 
