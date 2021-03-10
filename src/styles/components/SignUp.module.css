@@ -1,0 +1,115 @@
+.invisible{
+  display: none;
+}
+
+.containerSignUp{
+  width: 70%;
+  margin: auto;
+}
+
+.containerForm form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  outline: 0;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.containerForm .containerSuccess{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 388px;
+  min-height: 335px;
+  margin: auto;
+  background-color: var(--primary-color);
+  color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.containerForm .containerSuccess span:first-child{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.containerForm .containerSuccess span:last-child{
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 35px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.formContent div{
+  margin-bottom: 0.4rem;
+}
+
+.formContent .buttonReturn{
+  color: var(--secondary-color);
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 0.7rem;
+  justify-content: center;
+}
+
+.step{
+  margin: 5rem  0;
+}
+
+.step span{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--secondary-color);  
+}
+
+.step > div{
+  width: 100%;
+  border-bottom: solid 2px var(--primary-color);
+}
+
+.twoColumnsForm {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+}
+
+.twoColumnsForm > div > input, .select {
+  width: 100%;
+}
+
+.twoColumnsForm > div:first-child{
+  margin-right: 1rem;
+}
+
+@media (max-width: 1088px) {
+  .containerSignUp{
+    height: fit-content;
+    margin-bottom: 4rem;
+  }
+  .twoColumnsForm div{
+    display: grid;
+    grid-column: 1 / -1;
+  }
+  
+  .twoColumnsForm > div:first-child{
+    margin-right: 0;
+  }
+}
