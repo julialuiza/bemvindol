@@ -1,0 +1,20 @@
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+R = Dada a necessidade de uma infraestrutura escalável, a quantidade de transações que podem acontecer em um único dia e também por segurança dos dados do cliente, deve ser dispobilizada em Cloud. 
+
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
+solução, responda qual ferramenta acreditas ser apropriada para o controle de
+tarefas da equipe, a ferramenta é ágil?
+R= Existem algumas opções como Trello e Jira Software que permitem a criação de quadros para visualização e controle de tarefas de uma equipe, permitindo a personalização para aplicar uma metodologia ágil como SCRUM ou Kanban (ou os dois juntos), então sim, podem ser ferramentas ágeis. 
+
+
+3. Você se sente capaz de liderar esta equipe? Por quê?
+R= No momento não, pois acredito que ainda há algumas coisas que preciso estudar de forma mais aprofundada para adquirir mais conhecimento técnico (hard skills) e poder orientar uma equipe em relação as dúvidas que podem surgir, mas em um futuro próximo acredito que estarei apta.
+
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria?
+R= Em relação ao produto omnichannel, as sugestões que tenho seriam principalmmente arquitetar um banco de dados altamente escalavél e também exercitar outros aspectos do produto, como a experiência do usuário, para que esse objetivo de fluidez seja alcançado com sucesso.
+
+
+5. Acha válido esse desafio para o processo que está participando?
+R= Sim, pois o desafio envolve vários aspectos do desenvolvimento de um software, incluindo até a elaboração de diagramas, o que permite avaliar as habilidades de engenharia de software de forma mais ampla. 
